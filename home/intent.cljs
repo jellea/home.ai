@@ -4,3 +4,4 @@
 
 (defmethod intent :default [topic message]
   (prn (str "intent for topic " topic " not found, message: " message)))
+
